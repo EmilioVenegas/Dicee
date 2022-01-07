@@ -1,6 +1,6 @@
-var randomNumber1 = Math.floor(Math.random() * 7);
+var randomNumber1 = Math.floor(Math.random()) + 1;
 
-var randomNumber2 = Math.floor(Math.random() * 7);
+var randomNumber2 = Math.floor(Math.random()) + 1;
 
 document
   .querySelector(".img1")
